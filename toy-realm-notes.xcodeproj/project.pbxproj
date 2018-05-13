@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		9895C11B20A849870023FEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895C11A20A849870023FEAA /* AppDelegate.swift */; };
-		9895C11D20A849870023FEAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895C11C20A849870023FEAA /* ViewController.swift */; };
 		9895C12020A849870023FEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9895C11E20A849870023FEAA /* Main.storyboard */; };
 		9895C12220A849880023FEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9895C12120A849880023FEAA /* Assets.xcassets */; };
 		9895C12520A849880023FEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9895C12320A849880023FEAA /* LaunchScreen.storyboard */; };
+		9895C12D20A84E360023FEAA /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895C12C20A84E360023FEAA /* Note.swift */; };
+		9895C12F20A850670023FEAA /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895C12E20A850670023FEAA /* MainController.swift */; };
+		9895C13220A8560D0023FEAA /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895C13020A8560D0023FEAA /* NoteController.swift */; };
+		9895C13320A8560D0023FEAA /* NoteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9895C13120A8560D0023FEAA /* NoteController.xib */; };
+		9895C13620A874B90023FEAA /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895C13420A874B90023FEAA /* NoteCell.swift */; };
+		9895C13720A874B90023FEAA /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9895C13520A874B90023FEAA /* NoteCell.xib */; };
+		B430410014CB5799367C335E /* Pods_toy_realm_notes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C46E4792311D78DEF797E9 /* Pods_toy_realm_notes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B487D1E1983E6734EC221DE /* Pods-toy-realm-notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy-realm-notes.release.xcconfig"; path = "Pods/Target Support Files/Pods-toy-realm-notes/Pods-toy-realm-notes.release.xcconfig"; sourceTree = "<group>"; };
+		71C27073BBBC232BC04A01D5 /* Pods-toy-realm-notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy-realm-notes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toy-realm-notes/Pods-toy-realm-notes.debug.xcconfig"; sourceTree = "<group>"; };
 		9895C11720A849870023FEAA /* toy-realm-notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toy-realm-notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9895C11A20A849870023FEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9895C11C20A849870023FEAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9895C11F20A849870023FEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9895C12120A849880023FEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9895C12420A849880023FEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9895C12620A849880023FEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9895C12C20A84E360023FEAA /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		9895C12E20A850670023FEAA /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		9895C13020A8560D0023FEAA /* NoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
+		9895C13120A8560D0023FEAA /* NoteController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteController.xib; sourceTree = "<group>"; };
+		9895C13420A874B90023FEAA /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		9895C13520A874B90023FEAA /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
+		F2C46E4792311D78DEF797E9 /* Pods_toy_realm_notes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toy_realm_notes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B430410014CB5799367C335E /* Pods_toy_realm_notes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6694C0CFD5E82A88277C2EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46E4792311D78DEF797E9 /* Pods_toy_realm_notes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9895C10E20A849870023FEAA = {
 			isa = PBXGroup;
 			children = (
 				9895C11920A849870023FEAA /* toy-realm-notes */,
 				9895C11820A849870023FEAA /* Products */,
+				CE1ED548544888FEE770E3A5 /* Pods */,
+				6694C0CFD5E82A88277C2EC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +80,27 @@
 			isa = PBXGroup;
 			children = (
 				9895C11A20A849870023FEAA /* AppDelegate.swift */,
-				9895C11C20A849870023FEAA /* ViewController.swift */,
+				9895C12C20A84E360023FEAA /* Note.swift */,
+				9895C13420A874B90023FEAA /* NoteCell.swift */,
+				9895C13520A874B90023FEAA /* NoteCell.xib */,
+				9895C12E20A850670023FEAA /* MainController.swift */,
+				9895C13020A8560D0023FEAA /* NoteController.swift */,
+				9895C13120A8560D0023FEAA /* NoteController.xib */,
 				9895C11E20A849870023FEAA /* Main.storyboard */,
 				9895C12120A849880023FEAA /* Assets.xcassets */,
 				9895C12320A849880023FEAA /* LaunchScreen.storyboard */,
 				9895C12620A849880023FEAA /* Info.plist */,
 			);
 			path = "toy-realm-notes";
+			sourceTree = "<group>";
+		};
+		CE1ED548544888FEE770E3A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71C27073BBBC232BC04A01D5 /* Pods-toy-realm-notes.debug.xcconfig */,
+				4B487D1E1983E6734EC221DE /* Pods-toy-realm-notes.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9895C12920A849880023FEAA /* Build configuration list for PBXNativeTarget "toy-realm-notes" */;
 			buildPhases = (
+				E065CEDE967EF2C07970711F /* [CP] Check Pods Manifest.lock */,
 				9895C11320A849870023FEAA /* Sources */,
 				9895C11420A849870023FEAA /* Frameworks */,
 				9895C11520A849870023FEAA /* Resources */,
+				B6DDA570D8D2838A04DAC9F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,7 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9895C13720A874B90023FEAA /* NoteCell.xib in Resources */,
 				9895C12520A849880023FEAA /* LaunchScreen.storyboard in Resources */,
+				9895C13320A8560D0023FEAA /* NoteController.xib in Resources */,
 				9895C12220A849880023FEAA /* Assets.xcassets in Resources */,
 				9895C12020A849870023FEAA /* Main.storyboard in Resources */,
 			);
@@ -130,13 +173,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B6DDA570D8D2838A04DAC9F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-toy-realm-notes/Pods-toy-realm-notes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toy-realm-notes/Pods-toy-realm-notes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E065CEDE967EF2C07970711F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toy-realm-notes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9895C11320A849870023FEAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9895C11D20A849870023FEAA /* ViewController.swift in Sources */,
 				9895C11B20A849870023FEAA /* AppDelegate.swift in Sources */,
+				9895C13220A8560D0023FEAA /* NoteController.swift in Sources */,
+				9895C13620A874B90023FEAA /* NoteCell.swift in Sources */,
+				9895C12F20A850670023FEAA /* MainController.swift in Sources */,
+				9895C12D20A84E360023FEAA /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +367,7 @@
 		};
 		9895C12A20A849880023FEAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C27073BBBC232BC04A01D5 /* Pods-toy-realm-notes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +386,7 @@
 		};
 		9895C12B20A849880023FEAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B487D1E1983E6734EC221DE /* Pods-toy-realm-notes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
